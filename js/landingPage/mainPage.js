@@ -1,16 +1,16 @@
 import React from "react";
 import {Footer} from "./footer";
 import {Carousel1} from "./carousel";
-import * as url from "url";
+import {Contact} from "./contact/contact";
 
 const MainPage = () => {
     return (
         <>
             <header className=" bg-image py-5 text-center shadow-2-strong rounded mb-5 text-white header-mainPage">
 
-                <div className="container px-4 px-lg-5 my-5 mainPage-opacity">
-                    <div className="text-center text-white">
-                        <h1 className="display-6 fw-bolder"> Twoje dekoracje w zgodzie z naturą </h1>
+                <div className="container px-4 px-lg-5 my-5">
+                    <div className=" d-flex align-items-center justify-content-center text-white">
+                        <h1 className="display-6  d-block fw-bolder"> Twoje dekoracje w zgodzie z naturą </h1>
                     </div>
                 </div>
             </header>
@@ -70,6 +70,7 @@ const MainPage = () => {
                     </div>
                 </div>
             </section>
+            <Contact/>
             <Footer/>
         </>
 

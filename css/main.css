@@ -11802,10 +11802,15 @@ textarea.form-control-lg {
 }
 .header-mainPage {
   background: url("../../img/background.jpg") no-repeat bottom;
+  height: 300px;
 }
 
 .active {
   display: flex !important;
   justify-content: center !important;
+}
+
+.contact-form {
+  max-width: 800px;
 }
 /*# sourceMappingURL=main.css.map */
