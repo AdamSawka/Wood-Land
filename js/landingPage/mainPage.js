@@ -1,7 +1,13 @@
 import React from "react";
-import {Footer} from "./footer";
 import {Carousel1} from "./carousel";
 import {Contact} from "./contact/contact";
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+} from 'react-router-dom';
 
 const MainPage = () => {
     return (
@@ -71,7 +77,7 @@ const MainPage = () => {
                 </div>
             </section>
             <Contact/>
-            <Footer/>
+
         </>
 
     )
