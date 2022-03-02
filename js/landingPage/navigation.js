@@ -1,6 +1,5 @@
 import React, {useState} from "react";
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import {ItemsAll} from "./shop/itemsAll";
+import {Link} from "react-router-dom";
 
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +26,7 @@ const Navigation = () => {
                                        data-bs-toggle="dropdown" aria-expanded="false" onClick={toggleOpen}>Sklep</a>
                                     <ul className={` bg-light position-absolute ${menuClass} `}
                                         aria-labelledby="navbarDropdown">
-                                        <li><Link to="/shop/itemsAll" className="dropdown-item">Wszystkie
+                                        <li><Link to="/itemsAll" className="dropdown-item">Wszystkie
                                             produkty</Link></li>
                                         <li><a className="dropdown-item">Popularne</a></li>
                                         <li><a className="dropdown-item ">Nowości</a></li>
@@ -35,7 +34,7 @@ const Navigation = () => {
                                 </li>
                             </ul>
                             <ul className="navbar-nav mb-2 mb-lg-0 ms-lg-4">
-                                <li className="nav-item mx-4"><a className="nav-link">Zarejestruj się</a></li>
+                                <li className="nav-item mx-4"><Link to="/login" className="nav-link">Zarejestruj się</Link></li>
                             </ul>
                             <form className="d-flex">
                                 <button className="btn btn-outline-dark" type="submit">

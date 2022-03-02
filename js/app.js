@@ -5,6 +5,7 @@ import {Navigation} from "./landingPage/navigation";
 import {MainPage} from "./landingPage/mainPage";
 import {Footer} from "./landingPage/footer";
 import {ItemsAll} from "./landingPage/shop/itemsAll";
+import {MainApp} from "./login/MainApp";
 
 const App = () => {
     return (
@@ -13,7 +14,8 @@ const App = () => {
                 <Navigation/>
                 <Switch>
                 <Route path="/" exact component={MainPage}/>
-                <Route path="/shop/itemsAll" component={ItemsAll}/>
+                <Route path="/itemsAll" component={ItemsAll}/>
+                <Route path="/login" component={MainApp}/>
                 </Switch>
                 <Footer/>
             </Router>
