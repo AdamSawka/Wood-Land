@@ -1,11 +1,10 @@
-import React, {Component} from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {Navigation} from "./landingPage/navigation";
 import {MainPage} from "./landingPage/mainPage";
 import {Footer} from "./landingPage/footer";
 import {ItemsAll} from "./landingPage/shop/itemsAll";
-
 
 const App = () => {
     return (
@@ -14,7 +13,7 @@ const App = () => {
                 <Navigation/>
                 <Switch>
                 <Route path="/" exact component={MainPage}/>
-                <Route path="/landingPage/shop/itemsAll" component={ItemsAll}/>
+                <Route path="/shop/itemsAll" component={ItemsAll}/>
                 </Switch>
                 <Footer/>
             </Router>
