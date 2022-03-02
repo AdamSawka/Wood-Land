@@ -3,6 +3,7 @@ import Signup from "./Signup"
 import { Container } from "react-bootstrap"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Dashboard from "./Dashboard"
+// import { AuthProvider } from "./AuthContext"
 import Login from "./Login"
 import PrivateRoute from "./PrivateRoute"
 import ForgotPassword from "./ForgotPassword"
@@ -16,13 +17,15 @@ function MainApp() {
         >
             <div className="w-100" style={{ maxWidth: "400px" }}>
                 <Router>
+
                         <Switch>
-                            <Route exact path="/" component={Dashboard} />
+                            <Route path="/login" component={Login} />
+                            <Route exact path="/dashboard" component={Dashboard} />
                             <Route path="/update-profile" component={UpdateProfile} />
                             <Route path="/signup" component={Signup} />
-                            <Route path="/login" component={Login} />
                             <Route path="/forgot-password" component={ForgotPassword} />
                         </Switch>
+
                 </Router>
             </div>
         </Container>
