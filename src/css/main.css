@@ -1,0 +1,14 @@
+.header-mainPage {
+  height: 300px;
+}
+
+.active {
+  display: flex !important;
+  justify-content: center !important;
+
+}
+
+.contact-form {
+  max-width: 800px;
+}
+
