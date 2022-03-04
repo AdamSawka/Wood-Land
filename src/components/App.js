@@ -8,6 +8,7 @@ import Login from "./Login"
 import PrivateRoute from "./PrivateRoute"
 import ForgotPassword from "./ForgotPassword"
 import UpdateProfile from "./UpdateProfile"
+import {MainPage} from "../landingPage/mainPage";
 
 
  const AppLogin =()=> {
@@ -24,6 +25,7 @@ import UpdateProfile from "./UpdateProfile"
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
               <Route path="/forgot-password" component={ForgotPassword} />
+              <Route path="/" component={MainPage} />
             </Switch>
           </AuthProvider>
         </Router>

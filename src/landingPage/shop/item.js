@@ -6,7 +6,7 @@ const Item = ({name, img, price, id}) => {
     return <>
         <section className="py-5">
                     <div className="col mb-5">
-                        <img alt='deer'  className="card-img-top" src={`../../img/${img}`}
+                        <img alt='deer'  className="card-img-top" src={img}
                             />
                         <div className="card-body p-4">
                             <div className="text-center">
