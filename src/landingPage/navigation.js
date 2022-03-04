@@ -26,11 +26,8 @@ const Navigation = () => {
                             <Nav.Link href="/login" className="nav-item mx-4 d-lg-block">Logowanie/Rejestracja</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
-                    <Button className="btn btn-outline-dark px-3 nav-button" type="submit">
-                        <i className="bi-cart-fill me-1"> </i>
-                        Koszyk
-                        <span className="badge bg-dark text-white ms-1 rounded-pill mx-2">0</span>
-                    </Button>
+                    <i className="fa fa-shopping-basket mx-2" aria-hidden="true"/>
+                    <Button className="btn btn-light btn-outline-dark px-3 nav-button" type="submit">Koszyk</Button>
                 </Container>
             </Navbar>
 
