@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 
 const Item = ({name, img, price, id}) => {
     return <>
-        <section className="py-5">
+        <section className="py-5 item-shop">
                     <div className="col mb-5">
-                        <img alt='deer'  className="card-img-top" src={img}
+                        <img alt='deer'  className="card-img-top image-shop" src={img}
                             />
                         <div className="card-body p-4">
                             <div className="text-center">

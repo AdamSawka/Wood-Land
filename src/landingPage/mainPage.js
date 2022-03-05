@@ -2,7 +2,7 @@ import React from "react";
 import {Carousel1} from "./carousel";
 import {Contact} from "./contact/contact";
 import {Link} from "react-router-dom";
-import deer1 from "../img/deer1.jpg"
+import deers4 from "../img/deers4.jpg"
 import draw1 from "../img/draw1.jpg"
 
 const MainPage = () => {
@@ -22,7 +22,7 @@ const MainPage = () => {
                         <div className="col mb-5">
                             <div className="card h-100">
 
-                                <img  alt='deer' className="card-img-top" src={deer1}
+                                <img  alt='deer' className="card-img-top" src={deers4}
                                     />
 
                                 <div className="card-body p-4">

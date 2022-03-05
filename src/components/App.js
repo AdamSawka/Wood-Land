@@ -14,9 +14,8 @@ import {MainPage} from "../landingPage/mainPage";
  const AppLogin =()=> {
   return (
     <Container
-      className="d-flex align-items-center justify-content-center"
-      style={{ minHeight: "100vh" }}>
-      <div className="w-100" style={{ maxWidth: "400px" }}>
+      className="d-flex align-items-center justify-content-center appLoginContainer">
+      <div className="w-100 containerDiv">
         <Router>
           <AuthProvider>
             <Switch>
