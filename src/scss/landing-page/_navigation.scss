@@ -1,3 +1,6 @@
+.navigation{
+  z-index: 3;
+
 .nav-button{
   span{
     &:hover{
@@ -5,5 +8,7 @@
     }
 
   }
+
+}
 
 }

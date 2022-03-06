@@ -7,7 +7,7 @@ import {Button, Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 const Navigation = () => {
     return (
         <>
-            <Navbar bg="light" expand="lg">
+            <Navbar className="position-fixed top-0 w-100 navigation " bg="light" expand="lg">
                 <Container>
                     <Navbar.Brand>
                         <Link to="/" className="navbar-brand">

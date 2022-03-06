@@ -6,7 +6,7 @@ const ItemsAll = () => {
 
 
     return <>
-            <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 mx-1 justify-content-center">
+            <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 mx-1 justify-content-center margin-top">
                 <Item name={products[0].name} img={products[0].img} price={products[0].price} id={products[0].id}/>
                 <Item name={products[1].name} img={products[1].img} price={products[1].price} id={products[1].id}/>
                 <Item name={products[2].name} img={products[2].img} price={products[2].price} id={products[2].id}/>

@@ -7,7 +7,7 @@ import img4 from "../img/wall1.jpg"
  const Carousel1 = () =>
  {
     return (
-        <div>
+        <div className="carousel">
             <Carousel>
                 <Carousel.Item interval={3000}>
                     <img
