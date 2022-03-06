@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom"
 import logo from '../img/logo.png'
-import {Button, Navbar, Container, Nav, NavDropdown, Form, FormControl} from "react-bootstrap";
-import {Offcanvas} from "bootstrap";
+import {Button, Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+
 
 const Navigation = () => {
     return (

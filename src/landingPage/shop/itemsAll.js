@@ -1,29 +1,22 @@
 import React from "react";
 import {Item} from "./item";
-import wall1 from "../../img/wall1.jpg";
-import wall2 from "../../img/wall2.jpg";
-import deers2 from "../../img/deers2.jpg";
-import deers3 from "../../img/deers3.jpg";
-import deers4 from "../../img/deers4.jpg";
-import draw1 from "../../img/draw1.jpg";
-import pillow1 from "../../img/pillow1.jpg";
-import tshirt1 from "../../img/t-shirt1.jpg";
-import tshirt2 from "../../img/t-shirt2.jpg";
-import deer1 from "../../img/deer1.jpg";
+import {products} from "../../components/db";
+
 const ItemsAll = () => {
+
 
     return <>
             <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 mx-1 justify-content-center">
-                <Item name={'Poduszka'} img={pillow1} price={20} id={1}/>
-                <Item name={'Ozdoba ścienna'} img={wall1} price={60} id={2}/>
-                <Item name={'Ozdoba ścienna'} img={deers2} price={60} id={3}/>
-                <Item name={'Ozdoba ścienna'} img={wall2} price={60} id={4}/>
-                <Item name={'Podstawka'} img={deer1} price={15} id={5}/>
-                <Item name={'Koszulka'} img={tshirt1} price={80} id={6}/>
-                <Item name={'Koszulka'} img={tshirt2} price={80} id={7}/>
-                <Item name={'Plakat'} img={draw1} price={20} id={8}/>
-                <Item name={'Ozdoba scienna'} img={deers4} price={60} id={9}/>
-                <Item name={'Ozdoba scienna'} img={deers3} price={60} id={10}/>
+                <Item name={products[0].name} img={products[0].img} price={products[0].price} id={products[0].id}/>
+                <Item name={products[1].name} img={products[1].img} price={products[1].price} id={products[1].id}/>
+                <Item name={products[2].name} img={products[2].img} price={products[2].price} id={products[2].id}/>
+                <Item name={products[3].name} img={products[3].img} price={products[3].price} id={products[3].id}/>
+                <Item name={products[4].name} img={products[4].img} price={products[4].price} id={products[4].id}/>
+                <Item name={products[5].name} img={products[5].img} price={products[5].price} id={products[5].id}/>
+                <Item name={products[6].name} img={products[6].img} price={products[6].price} id={products[6].id}/>
+                <Item name={products[7].name} img={products[7].img} price={products[7].price} id={products[7].id}/>
+                <Item name={products[8].name} img={products[8].img} price={products[8].price} id={products[8].id}/>
+                <Item name={products[9].name} img={products[9].img} price={products[9].price} id={products[9].id}/>
                 </div>
             </>
             }
