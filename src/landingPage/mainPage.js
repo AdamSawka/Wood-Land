@@ -1,6 +1,7 @@
 import React from "react";
 import {Carousel1} from "./carousel";
 import {Contact} from "./contact/contact";
+import {AboutUs} from "./about/aboutUs";
 import {Link} from "react-router-dom";
 import deers4 from "../img/deers4.jpg"
 import draw1 from "../img/draw1.jpg"
@@ -8,15 +9,14 @@ import draw1 from "../img/draw1.jpg"
 const MainPage = () => {
     return (
         <>
-            <header className=" bg-image py-5 text-center shadow-2-strong rounded mb-5 text-white header-mainPage ">
-                <div className="container px-4 px-lg-5 my-5">
-                    <div className=" d-flex align-items-center justify-content-center text-white">
-                        <h1 className="display-6  d-block fw-bolder"> Twoje dekoracje w zgodzie z naturą </h1>
+            <div className='pt-5'>
+            <header className="  py-5 text-center shadow-2-strong rounded  header-mainPage ">
+                    <div className=" d-flex justify-content-center  header-text">
+                        <h1 className="display-6 d-block fw-bolder text-light"> Twoje dekoracje w zgodzie z naturą </h1>
                     </div>
-                </div>
             </header>
+                <section className=" py-5 bg-light">
         <Carousel1/>
-            <section className="py-5">
                 <div className="container px-4 px-lg-5 mt-5">
                     <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                         <div className="col mb-5">
@@ -70,7 +70,10 @@ const MainPage = () => {
                     </div>
                 </div>
             </section>
+            </div>
+            <AboutUs/>
             <Contact/>
+
         </>
 
     )

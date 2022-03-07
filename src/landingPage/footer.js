@@ -5,7 +5,8 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
     return <>
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+        <div className="footer-container">
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted '>
             <section className='d-flex justify-content-center justify-content-lg-between mx-5 p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block text'>
                     <span>Sprawdź nas również na:</span>
@@ -50,7 +51,7 @@ const Footer = () => {
                         <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Przydatne linki</h6>
                             <p>
-                                <Link to =" "  className='text-reset'>
+                                <Link to ="/itemsAll"  className='text-reset'>
                                     Sklep
                                 </Link>
                             </p>
@@ -98,6 +99,7 @@ const Footer = () => {
                 </Link>
             </div>
         </MDBFooter>
+        </div>
     </>
 }
 export {Footer};
