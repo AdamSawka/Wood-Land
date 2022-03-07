@@ -31,22 +31,17 @@ const Footer = () => {
                         <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Produkty</h6>
                             <p>
-                                <Link to =" "  className='text-reset'>
+                                <Link to ="/decorations"  className='text-reset'>
                                     Ozdoby ścienne
                                 </Link>
                             </p>
                             <p>
-                                <Link to =" "  className='text-reset'>
+                                <Link to ="/pillows"  className='text-reset'>
                                     Poduszki
                                 </Link>
                             </p>
                             <p>
-                                <Link to =" "  className='text-reset'>
-                                    Kubki
-                                </Link>
-                            </p>
-                            <p>
-                                <Link to =" " className='text-reset'>
+                                <Link to ="/shirts" className='text-reset'>
                                     Koszulki
                                 </Link>
                             </p>
