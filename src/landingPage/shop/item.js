@@ -1,18 +1,9 @@
-import React, {useContext, useReducer} from "react";
-const itemsId = [];
-
-function reducer (state, action) {
-    switch (action.type) {
-        case 'add':
-            return {...state + 1};
-        default:
-            throw new Error();
-    }
-}
+import React from "react";
+import {ItemsId} from "./itemsAll";
 
 
 const Item = ({name, img, price, id}) => {
-    const[state, dispatch] = useReducer(reducer, itemsId);
+
 
     return <>
         <section className="py-5 item-shop">
@@ -29,9 +20,15 @@ const Item = ({name, img, price, id}) => {
                 </div>
                 <div className="card-footer ">
                     <div className="text-center">
-                        <button onClick={()=>dispatch({type: 'add'})} className="btn btn-outline-dark mt-auto" name={id}>Dodaj
-                            do koszyka
-                        </button>
+                        <ItemsId.Consumer>
+                            {
+                                ({itemId, setItemId})=>(
+                                    <button onClick={setItemId}  className="btn btn-outline-dark mt-auto" >Dodaj
+                                        do koszyka
+                                    </button>
+                                )
+                            }
+                        </ItemsId.Consumer>
                     </div>
                 </div>
             </div>
