@@ -4,7 +4,7 @@ import {Contact} from "./contact/contact";
 import {AboutUs} from "./about/aboutUs";
 import {Link} from "react-router-dom";
 import deers4 from "../img/deers4.jpg"
-import draw1 from "../img/draw1.jpg"
+import image from "../img/image3.jpg"
 
 const MainPage = () => {
     return (
@@ -35,7 +35,7 @@ const MainPage = () => {
                                 </div>
 
                                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div className="text-center"><Link className="btn btn-outline-dark mt-auto" >Więcej </Link></div>
+                                    <div className="text-center"><Link to="/popular" className="btn btn-outline-dark mt-auto" >Więcej </Link></div>
                                 </div>
                             </div>
                         </div>
@@ -43,27 +43,27 @@ const MainPage = () => {
                             <div className="card h-100">
 
                                 <div className="badge bg-dark text-white position-absolute"
-                                     >Wyprzedaż
+                                     >Nowość
                                 </div>
 
-                                <img alt='deer'  className="card-img-top" src={draw1}
+                                <img alt='deer'  className="card-img-top" src={image}
                                     />
 
                                 <div className="card-body p-4">
                                     <div className="text-center">
 
-                                        <h5 className="fw-bolder">Okolicznościowe</h5>
+                                        <h5 className="fw-bolder">Nowa kolekcja</h5>
 
                                         <div className="d-flex justify-content-center small text-warning mb-2">
                                         </div>
 
-                                        <span className="text-muted text-decoration-line-through">PLN 20.00</span>
-                                         PLN 18.00
+                                        <span className="text-muted text-decoration-line-through">PLN 220.00</span>
+                                         PLN 180.00
                                     </div>
                                 </div>
 
                                 <div className="card-footer ">
-                                    <div className="text-center"><Link className="btn btn-outline-dark mt-auto" >Dodaj do koszyka</Link></div>
+                                    <div className="text-center"><Link to="/news" className="btn btn-outline-dark mt-auto" >Sprawdź</Link></div>
                                 </div>
                             </div>
                         </div>

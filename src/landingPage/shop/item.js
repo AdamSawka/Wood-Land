@@ -2,7 +2,7 @@ import React from "react";
 import {ItemsId} from "./itemsAll";
 
 
-const Item = ({name, img, price, id}) => {
+const Item = ({name, img, price}) => {
 
 
     return <>

@@ -42,6 +42,11 @@ const Footer = () => {
                                 </Link>
                             </p>
                             <p>
+                                <Link to ="/images"  className='text-reset'>
+                                    Obrazy
+                                </Link>
+                            </p>
+                            <p>
                                 <Link to ="/shirts" className='text-reset'>
                                     Koszulki
                                 </Link>

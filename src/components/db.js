@@ -8,6 +8,11 @@ import tshirt2 from "../img/t-shirt2.jpg";
 import draw1 from "../img/draw1.jpg";
 import deers4 from "../img/deers4.jpg";
 import deers3 from "../img/deers3.jpg";
+import image from "../img/image.jpg"
+import image1 from "../img/image1.jpg"
+import image2 from "../img/image2.jpg"
+import image3 from "../img/image3.jpg"
+import image4 from "../img/image4.jpg"
 
 const products = [
     {
@@ -17,7 +22,7 @@ const products = [
         price: 20,
         img: pillow1,
         popular: true,
-        new:true
+        isNew:true
 
     }, {
         id: 2,
@@ -26,7 +31,7 @@ const products = [
         price: 60,
         img: wall1,
         popular: true,
-        new:true
+        isNew:true
 
 
     }, {
@@ -35,7 +40,7 @@ const products = [
         type: 'decoration',
         price: 60,
         img: wall2,
-        new:true
+        isNew:true
 
     }, {
         id: 4,
@@ -44,7 +49,7 @@ const products = [
         price: 60,
         img: deers2,
         popular: true,
-        new:false
+        isNew:false
 
     }, {
         id: 5,
@@ -53,7 +58,7 @@ const products = [
         price: 60,
         img: deers3,
         popular: true,
-        new:false
+        isNew:false
 
     }, {
         id: 6,
@@ -62,7 +67,7 @@ const products = [
         price: 60,
         img: deers4,
         popular: false,
-        new:false
+        isNew:false
 
     }, {
         id: 7,
@@ -71,7 +76,7 @@ const products = [
         price: 80,
         img: tshirt1,
         popular: false,
-        new:true
+        isNew:true
     },{
         id: 8,
         name: 'Koszulka',
@@ -79,7 +84,7 @@ const products = [
         price: 80,
         img: tshirt2,
         popular: false,
-        new: true
+        isNew: true
     },{
         id: 9,
         name: 'Plakat',
@@ -87,7 +92,7 @@ const products = [
         price: 30,
         img: draw1,
         popular: false,
-        new:false
+        isNew:false
     },{
         id: 10,
         name: 'Podstawka',
@@ -95,7 +100,47 @@ const products = [
         price: 30,
         img: deer1,
         popular: false,
-        new:false
+        isNew:false
+    },{
+        id: 11,
+        name: 'Obraz',
+        type: 'image',
+        price: 130,
+        img: image,
+        popular: true,
+        isNew:true
+    },{
+        id: 12,
+        name: 'Obraz',
+        type: 'image',
+        price: 320,
+        img: image1,
+        popular: true,
+        isNew:true
+    },{
+        id: 13,
+        name: 'Obraz',
+        type: 'image',
+        price: 130,
+        img: image2,
+        popular: true,
+        isNew:true
+    },{
+        id: 14,
+        name: 'Obraz',
+        type: 'image',
+        price: 180,
+        img: image3,
+        popular: true,
+        isNew:true
+    },{
+        id: 15,
+        name: 'Obraz',
+        type: 'image',
+        price: 250,
+        img: image4,
+        popular: true,
+        isNew:true
     },
 
 ]
