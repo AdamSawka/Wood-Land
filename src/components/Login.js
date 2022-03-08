@@ -1,5 +1,9 @@
-import React, {useRef, useState} from "react"
+import React, {useRef, useState, useContext} from "react"
 import {Form, Button, Card, Alert} from "react-bootstrap"
+// import { FirebaseAuth } from "react-firebaseui";
+import firebase from "firebase"
+import { AuthContext } from "../firebase/context";
+import { Redirect } from "react-router-dom";
 import {useAuth} from "../contexts/AuthContext"
 import {Link, useHistory} from "react-router-dom"
 import {auth} from "firebase";
@@ -12,6 +16,15 @@ export default function Login() {
     const [loading, setLoading] = useState(false)
     const history = useHistory()
     const [token, setToken] = useState('')
+
+    const uiConfig = {
+        signInFlow: "popup",
+        signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
+        callbacks: {
+            signInSuccess: () => false,
+        },
+    }
+
 
     async function handleSubmit(e) {
         e.preventDefault()

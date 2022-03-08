@@ -61,7 +61,7 @@ const Footer = () => {
                                 </Link>
                             </p>
                             <p>
-                                <Link to =" "  className='text-reset'>
+                                <Link to ="/basket"  className='text-reset'>
                                     Twój koszyk
                                 </Link>
                             </p>

@@ -23,11 +23,11 @@ const Navigation = () => {
                                 <NavDropdown.Item href="/popular">Popularne</NavDropdown.Item>
                                 <NavDropdown.Item href="/news">Nowości</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/login" className="nav-item mx-4 d-lg-block">Logowanie/Rejestracja</Nav.Link>
+                            <Nav.Link href="/signin" className="nav-item mx-4 d-lg-block">Logowanie/Rejestracja</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     <i className="fa fa-shopping-basket mx-2" aria-hidden="true"/>
-                    <Button className="btn btn-light btn-outline-dark px-3 nav-button" type="submit">Koszyk</Button>
+                    <Button href="/basket"  className="btn btn-light btn-outline-dark px-3 nav-button" >Koszyk</Button>
                 </Container>
             </Navbar>
 
