@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Wood-Land/static/css/main.86787362.chunk.css",
+    "main.js": "/Wood-Land/static/js/main.2dcf1db5.chunk.js",
+    "main.js.map": "/Wood-Land/static/js/main.2dcf1db5.chunk.js.map",
+    "runtime-main.js": "/Wood-Land/static/js/runtime-main.1dbdf13f.js",
+    "runtime-main.js.map": "/Wood-Land/static/js/runtime-main.1dbdf13f.js.map",
+    "static/css/2.68a81a89.chunk.css": "/Wood-Land/static/css/2.68a81a89.chunk.css",
+    "static/js/2.ea436296.chunk.js": "/Wood-Land/static/js/2.ea436296.chunk.js",
+    "static/js/2.ea436296.chunk.js.map": "/Wood-Land/static/js/2.ea436296.chunk.js.map",
+    "index.html": "/Wood-Land/index.html",
+    "precache-manifest.a7466863681b731170cb307962d07c2b.js": "/Wood-Land/precache-manifest.a7466863681b731170cb307962d07c2b.js",
+    "service-worker.js": "/Wood-Land/service-worker.js",
+    "static/css/2.68a81a89.chunk.css.map": "/Wood-Land/static/css/2.68a81a89.chunk.css.map",
+    "static/css/main.86787362.chunk.css.map": "/Wood-Land/static/css/main.86787362.chunk.css.map",
+    "static/js/2.ea436296.chunk.js.LICENSE.txt": "/Wood-Land/static/js/2.ea436296.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Wood-Land/static/media/background-about.939c6584.jpg",
+    "static/media/deer1.jpg": "/Wood-Land/static/media/deer1.0d3ca016.jpg",
+    "static/media/deers2.jpg": "/Wood-Land/static/media/deers2.911f66f7.jpg",
+    "static/media/deers3.jpg": "/Wood-Land/static/media/deers3.b51d27ce.jpg",
+    "static/media/deers4.jpg": "/Wood-Land/static/media/deers4.62273139.jpg",
+    "static/media/draw1.jpg": "/Wood-Land/static/media/draw1.1b1572ce.jpg",
+    "static/media/font-awesome.css": "/Wood-Land/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/image.jpg": "/Wood-Land/static/media/image.cdefa759.jpg",
+    "static/media/image1.jpg": "/Wood-Land/static/media/image1.375d63be.jpg",
+    "static/media/image2.jpg": "/Wood-Land/static/media/image2.6a5d0e10.jpg",
+    "static/media/image3.jpg": "/Wood-Land/static/media/image3.18a387d2.jpg",
+    "static/media/image4.jpg": "/Wood-Land/static/media/image4.fdcf6e1c.jpg",
+    "static/media/pillow1.jpg": "/Wood-Land/static/media/pillow1.5f68b0e5.jpg",
+    "static/media/t-shirt1.jpg": "/Wood-Land/static/media/t-shirt1.db2bbb3a.jpg",
+    "static/media/t-shirt2.jpg": "/Wood-Land/static/media/t-shirt2.bb5377c4.jpg",
+    "static/media/wall1.jpg": "/Wood-Land/static/media/wall1.ff8e8092.jpg",
+    "static/media/wall2.jpg": "/Wood-Land/static/media/wall2.7ba7fb31.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1dbdf13f.js",
+    "static/css/2.68a81a89.chunk.css",
+    "static/js/2.ea436296.chunk.js",
+    "static/css/main.86787362.chunk.css",
+    "static/js/main.2dcf1db5.chunk.js"
+  ]
+}
