@@ -2,6 +2,7 @@ import React from "react";
 
 const Item = ({name, img, price, id, add}) => {
 
+
     return <>
         <section key={id} className="py-5 item-shop">
             <div className="col mb-5">

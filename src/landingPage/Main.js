@@ -8,13 +8,22 @@ import {AppLogin} from "../components/AppLogin";
 import {SortNew, SortType, SortPopular} from "./shop/sort";
 // import { AuthProvider } from "../firebase/context";
 import {Basket} from "./Basket";
+const API_URL = 'http://localhost:3000';
 
 //useReducer
 const Main = () => {
     const [basket, setBasket] = useState([]);
      const addProductToBasket = (product) => {
-        const newBasket = [...basket, product.id];
-        // todo :: logic of adding to basket
+         const data = {userId:"3", idOfProducts:[1,2,3,4,5]}
+        const newBasket = [...basket,product.id];
+
+             fetch(`${API_URL}/baskets`, {
+                 method: "POST",
+                 body: JSON.stringify(data),
+                 headers: {
+                     "Content-Type": "application/json"
+                 }
+             })
          console.log(newBasket);
          setBasket(newBasket)
     }
