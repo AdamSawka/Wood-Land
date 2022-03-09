@@ -1,6 +1,8 @@
 import React from "react";
-import {products} from "../../components/db";
+import {products} from "../../components/db.js";
 import {Item} from "./item";
+
+
 
 const SortType = ({typeElement}) => {
 

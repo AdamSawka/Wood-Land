@@ -1,30 +1,21 @@
 import './App.css';
 import db from 'firebase';
-import React,{useState,useEffect} from 'react';
+import React,{useEffect} from 'react';
+import config from "../firebase";
+import {initializeApp} from "firebase/app";
+import {getFirestore, collection, getDocs} from '/firebase/firestore/lite';
 
 function GetData() {
-    const [data,setData]=useState([])
-    const fetchData=async()=>{
-        const response=db.collection('Blogs');
-        const elements=await response.get();
-        elements.docs.forEach(item=>{
-            setData([...elements,item.data()])
-        })
-    }
-    useEffect(() => {
-        fetchData();
-    }, [])
-    return (
-        <div className="App">
-            {
-                data && data.map(blog=>{
-                    return(
-                        <h1></h1>
-                    )
-                })
-            }
-        </div>
-    );
+
+    useEffect(async ()=>{
+        const app = initializeApp(config);
+        const db = getFirestore(app);
+        const userCollection = collection(db,"articles");
+        const users = await getDocs(userCollection)
+
+        users.docs.forEach((doc) => {
+            console.log(doc);
+        })},[])
 }
 
 export default GetData;

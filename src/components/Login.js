@@ -1,30 +1,17 @@
 import React, {useRef, useState, useContext} from "react"
 import {Form, Button, Card, Alert} from "react-bootstrap"
-// import { FirebaseAuth } from "react-firebaseui";
 import firebase from "firebase"
-import { AuthContext } from "../firebase/context";
-import { Redirect } from "react-router-dom";
+import { FirebaseAuth } from "firebase";
 import {useAuth} from "../contexts/AuthContext"
 import {Link, useHistory} from "react-router-dom"
-import {auth} from "firebase";
 
 export default function Login() {
     const emailRef = useRef()
     const passwordRef = useRef()
-    const {login} = useAuth()
+    const { login } = useAuth()
     const [error, setError] = useState("")
     const [loading, setLoading] = useState(false)
     const history = useHistory()
-    const [token, setToken] = useState('')
-
-    const uiConfig = {
-        signInFlow: "popup",
-        signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
-        callbacks: {
-            signInSuccess: () => false,
-        },
-    }
-
 
     async function handleSubmit(e) {
         e.preventDefault()
@@ -34,16 +21,8 @@ export default function Login() {
             setLoading(true)
             await login(emailRef.current.value, passwordRef.current.value)
             history.push("/")
-
-            auth().onAuthStateChanged(user => {
-                if (user) {
-                    user.getIdToken(true)
-                        .then(latestToken => setToken(latestToken))
-                }
-            })
-            return token
         } catch {
-            setError("Failed to log in")
+            setError("Logowanie nieudane")
         }
 
         setLoading(false)

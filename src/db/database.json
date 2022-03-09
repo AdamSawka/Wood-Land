@@ -1,0 +1,144 @@
+{
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Poduszka",
+      "type": "pillow",
+      "price": 20,
+      "img": "https://i.ibb.co/SmCS2JP/pillow1.jpg",
+      "popular": true,
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "name": "Ozdoba ścienna",
+      "type": "decoration",
+      "price": 60,
+      "img": "https://i.ibb.co/23gfth9/wall1.jpg",
+      "popular": true,
+      "isNew": true
+    },
+    {
+      "id": 3,
+      "name": "Ozdoba ścienna",
+      "type": "decoration",
+      "price": 60,
+      "img": "https://i.ibb.co/VY73VcD/wall2.jpg",
+      "isNew": true
+    },
+    {
+      "id": 4,
+      "name": "Ozdoba ścienna",
+      "type": "decoration",
+      "price": 60,
+      "img": "https://i.ibb.co/bgTQg0y/deers2.jpg",
+      "popular": true,
+      "isNew": false
+    },
+    {
+      "id": 5,
+      "name": "Ozdoba ścienna",
+      "type": "decoration",
+      "price": 60,
+      "img": "https://i.ibb.co/c83pYBK/deers3.jpg",
+      "popular": true,
+      "isNew": false
+    },
+    {
+      "id": 6,
+      "name": "Ozdoba ścienna",
+      "type": "decoration",
+      "price": 60,
+      "img": "https://i.ibb.co/bNyMswG/deers4.jpg",
+      "popular": false,
+      "isNew": false
+    },
+    {
+      "id": 7,
+      "name": "Koszulka",
+      "type": "shirt",
+      "price": 80,
+      "img": "https://i.ibb.co/6Y468sB/t-shirt2.jpg",
+      "popular": false,
+      "isNew": true
+    },
+    {
+      "id": 8,
+      "name": "Koszulka",
+      "type": "shirt",
+      "price": 80,
+      "img": "https://i.ibb.co/52YWgjH/t-shirt1.jpg",
+      "popular": false,
+      "isNew": true
+    },
+    {
+      "id": 9,
+      "name": "Plakat",
+      "type": "poster",
+      "price": 30,
+      "img": "https://i.ibb.co/5G5CK8t/draw1.jpg",
+      "popular": false,
+      "isNew": false
+    },
+    {
+      "id": 10,
+      "name": "Obraz",
+      "type": "stand",
+      "price": 130,
+      "img": "https://i.ibb.co/g3Xqy6h/animals1.jpg",
+      "popular": false,
+      "isNew": false
+    },
+    {
+      "id": 11,
+      "name": "Obraz",
+      "type": "image",
+      "price": 130,
+      "img": "https://i.ibb.co/R6NCYDs/image.jpg",
+      "popular": true,
+      "isNew": true
+    },
+    {
+      "id": 12,
+      "name": "Obraz",
+      "type": "image",
+      "price": 320,
+      "img": "https://i.ibb.co/kqPkQNT/image1.jpg",
+      "popular": true,
+      "isNew": true
+    },
+    {
+      "id": 13,
+      "name": "Obraz",
+      "type": "image",
+      "price": 130,
+      "img": "https://i.ibb.co/D5KKKWC/image2.jpg",
+      "popular": true,
+      "isNew": true
+    },
+    {
+      "id": 14,
+      "name": "Obraz",
+      "type": "image",
+      "price": 180,
+      "img": "https://i.ibb.co/fMpw28L/image3.jpg",
+      "popular": true,
+      "isNew": true
+    },
+    {
+      "id": 15,
+      "name": "Obraz",
+      "type": "image",
+      "price": 250,
+      "img": "https://i.ibb.co/xSNVyfQ/image4.jpg",
+      "popular": true,
+      "isNew": true
+    }
+  ],
+  "baskets": {
+    "userId":" ",
+    "idOfProducts": []
+
+  }
+}

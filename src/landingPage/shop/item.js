@@ -1,12 +1,9 @@
 import React from "react";
-import {ItemsId} from "./itemsAll";
 
-
-const Item = ({name, img, price}) => {
-
+const Item = ({name, img, price, id, add}) => {
 
     return <>
-        <section className="py-5 item-shop">
+        <section key={id} className="py-5 item-shop">
             <div className="col mb-5">
                 <img alt='deer' className="card-img-top image-shop" src={img}
                 />
@@ -20,15 +17,10 @@ const Item = ({name, img, price}) => {
                 </div>
                 <div className="card-footer ">
                     <div className="text-center">
-                        <ItemsId.Consumer>
-                            {
-                                ({itemId, setItemId})=>(
-                                    <button onClick={setItemId}  className="btn btn-outline-dark mt-auto" >Dodaj
-                                        do koszyka
-                                    </button>
-                                )
-                            }
-                        </ItemsId.Consumer>
+                        <button onClick={add} className="btn btn-outline-dark mt-auto">Dodaj
+                            do koszyka
+                        </button>
+
                     </div>
                 </div>
             </div>

@@ -16,32 +16,14 @@ import image4 from "../img/image4.jpg"
 
 const products = [
     {
-        id: 1,
-        name: 'Poduszka',
-        type: 'pillow',
-        price: 20,
         img: pillow1,
-        popular: true,
-        isNew:true
-
     }, {
         id: 2,
-        name: 'Ozdoba ścienna',
-        type: 'decoration',
-        price: 60,
         img: wall1,
-        popular: true,
-        isNew:true
-
 
     }, {
         id: 3,
-        name: 'Ozdoba ścienna',
-        type: 'decoration',
-        price: 60,
         img: wall2,
-        isNew:true
-
     }, {
         id: 4,
         name: 'Ozdoba ścienna',
