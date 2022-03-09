@@ -24,7 +24,7 @@ import {MainPage} from "../landingPage/mainPage";
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
               <Route path="/forgot-password" component={ForgotPassword} />
-              <Route path="/" component={MainPage} />
+              <Route path="/main" component={MainPage} />
             </Switch>
           </AuthProvider>
         </Router>

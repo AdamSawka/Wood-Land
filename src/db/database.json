@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "id": 0,
+      "name": "Poduszka",
+      "type": "pillow",
+      "price": 20,
+      "img": "https://i.ibb.co/sQr3fnt/pillow2.jpg",
+      "popular": true,
+      "isNew": true
+    },
+    {
       "id": 1,
       "name": "Poduszka",
       "type": "pillow",

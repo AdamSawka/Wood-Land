@@ -16,6 +16,7 @@ const ItemsAll = ({add}) => {
                 setProducts(data);
                 setLoading(false);
             });
+
     }, []);
     if (loading) return <p>Trwa ładowanie...</p>;
     if (products.length === 0) return null;
