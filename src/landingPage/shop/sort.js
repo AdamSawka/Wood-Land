@@ -1,5 +1,5 @@
 import React from "react";
-import {Products} from "../../components/db.js";
+import {Products} from "../../components/ConnectDb.js";
 import {Item} from "./item";
 
 const SortType = ({typeElement, add}) => {

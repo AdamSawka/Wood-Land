@@ -1,6 +1,6 @@
 import React from 'react';
 import {Item} from "./item";
-import {Products} from "../../components/db.js";
+import {Products} from "../../components/ConnectDb.js";
 
 const ItemsAll = ({add}) => {
     const products = Products()

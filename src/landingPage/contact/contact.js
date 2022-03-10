@@ -6,11 +6,11 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
 
     function sendEmail(e) {
-        e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+        e.preventDefault();
 
         emailjs.sendForm('service_o0q4gb8', 'template_ob6k6fb', e.target, 'mzE17WK22-N3zZcD8')
             .then((result) => {
-                window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+                window.location.reload()
             }, (error) => {
                 console.log(error.text);
             });
