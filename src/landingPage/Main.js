@@ -39,12 +39,12 @@ const Main = () => {
                     <Route path="/main"><MainPage /></Route>
                     <Route path="/itemsAll"><ItemsAll add={addProductToBasket} /></Route>
                     <Route path="/login" > <AppLogin />  </Route>
-                    <Route path="/pillows" ><SortType typeElement='pillow'/> </Route>
-                    <Route path="/decorations" ><SortType typeElement='decoration'/> </Route>
-                    <Route path="/shirts" ><SortType typeElement='shirt'/> </Route>
-                    <Route path="/images" ><SortType typeElement='image'/> </Route>
-                    <Route path="/popular" ><SortPopular /> </Route>
-                    <Route path="/news" ><SortNew /> </Route>
+                    <Route path="/pillows" ><SortType typeElement='pillow' add={addProductToBasket}/> </Route>
+                    <Route path="/decorations" ><SortType typeElement='decoration'add={addProductToBasket} /> </Route>
+                    <Route path="/shirts" ><SortType typeElement='shirt' add={addProductToBasket}/> </Route>
+                    <Route path="/images" ><SortType typeElement='image' add={addProductToBasket}/> </Route>
+                    <Route path="/popular" ><SortPopular add={addProductToBasket} /> </Route>
+                    <Route path="/news" ><SortNew add={addProductToBasket} /> </Route>
                     <Route path="/basket" ><Basket items={basket} remove={removeFromProductToBasket}/> </Route>
                 </Switch>
                 <Footer/>

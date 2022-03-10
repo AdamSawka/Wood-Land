@@ -1,7 +1,6 @@
-import React, {useRef, useState, useContext} from "react"
+import React, {useRef, useState} from "react"
 import {Form, Button, Card, Alert} from "react-bootstrap"
-import firebase from "firebase"
-import { FirebaseAuth } from "firebase";
+
 import {useAuth} from "../contexts/AuthContext"
 import {Link, useHistory} from "react-router-dom"
 

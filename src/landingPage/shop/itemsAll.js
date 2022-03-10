@@ -1,26 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Item} from "./item";
-
-const API_URL = 'http://localhost:3000';
+import {Products} from "../../components/db.js";
 
 const ItemsAll = ({add}) => {
-
-    const [products, setProducts] = useState([]);
-    const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        setLoading(true);
-        fetch(`${API_URL}/products`)
-            .then((response) => response.json())
-            .then((data) => {
-                setProducts(data);
-                setLoading(false);
-            });
-
-    }, []);
-    if (loading) return <p>Trwa ładowanie...</p>;
-    if (products.length === 0) return null;
-
+    const products = Products()
 
     return <>
                 <div className="container">

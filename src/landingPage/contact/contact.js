@@ -18,7 +18,7 @@ const Contact = () => {
 
     return (
         <div className="form-container py-5">
-            <Form className= "contact-form mx-auto d-block" onSubmit={sendEmail}>
+            <Form className= "contact-form mx-auto d-block" value="formular" onSubmit={sendEmail}>
                 <h3 className="text-center">Napisz do nas</h3>
                 <Form.Group className = "p-3 ">
                     <Form.Control  type="text" name="user_name"
@@ -29,7 +29,7 @@ const Contact = () => {
                                   placeholder="Wpisz adres email:"/>
                 </Form.Group>
                 <Form.Group className = "p-3 ">
-                    <textarea name="message"  className="form-control" id="exampleFormControlTextarea1" rows="4"> </textarea>
+                    <textarea name="message"   className="form-control" id="exampleFormControlTextarea1" rows="4"> </textarea>
                 </Form.Group>
                 <Button className="text-center mx-auto d-block p-2 " variant="secondary" type="submit" value="Send">
                     Wyślij wiadomość
