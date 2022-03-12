@@ -144,8 +144,11 @@
       "isNew": true
     }
   ],
-  "baskets": {
-    "userId": "",
-    "idOfProducts": []
-  }
+  "baskets": [
+    {
+      "userId": "",
+      "idOfProducts": []
+    }
+
+  ]
 }

@@ -2,6 +2,9 @@ import React from "react";
 
 const Item = ({name, img, price, id, add}) => {
 
+    const handleAddToBasket = () =>{
+        add(id)
+    }
 
     return <>
         <section key={id} className="py-5 item-shop">
@@ -18,7 +21,7 @@ const Item = ({name, img, price, id, add}) => {
                 </div>
                 <div className="card-footer ">
                     <div className="text-center">
-                        <button onClick={add} className="btn btn-outline-dark mt-auto">Dodaj
+                        <button onClick={handleAddToBasket} className="btn btn-outline-dark mt-auto">Dodaj
                             do koszyka
                         </button>
 
