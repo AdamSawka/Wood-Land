@@ -4,10 +4,9 @@ import logo from '../img/logo.png'
 import {Button, Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import {Baskets} from "../components/Baskets";
 
-const Navigation = () => {
-    const items = Baskets()
-    let howMuchItems= []
-     howMuchItems = items.length
+const Navigation = ({basket}) => {
+    const items = basket
+    console.log(items.length);
     return (
         <>
             <Navbar className="position-fixed top-0 w-100 navigation " bg="light" expand="lg">
@@ -30,7 +29,7 @@ const Navigation = () => {
                         </Nav>
                     </Navbar.Collapse>
                     <i className="fa fa-shopping-basket mx-2" aria-hidden="true"/>
-                    <Button href="/basket"  className="btn btn-light btn-outline-dark px-3 nav-button" >Koszyk {howMuchItems}</Button>
+                    <Button href="/basket"  className="btn btn-light btn-outline-dark px-3 nav-button" >Koszyk {items.length} </Button>
                 </Container>
             </Navbar>
 

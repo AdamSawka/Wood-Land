@@ -33,7 +33,7 @@ const Main = () => {
     }
     return (
             <Router>
-                <Navigation />
+                <Navigation basket={basket} />
                 <Switch>
                     <Route path="/main"><MainPage /></Route>
                     <Route path="/itemsAll"><ItemsAll add={addProductToBasket} /></Route>
