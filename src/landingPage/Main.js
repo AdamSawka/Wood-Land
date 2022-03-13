@@ -16,14 +16,14 @@ const Main = () => {
 
      const addProductToBasket = (product) => {
         const newBasket = [...basket,product];
-         const data = {userId:"",idOfProducts: newBasket}
-             fetch(`${API_URL}/baskets`, {
-                 method: "POST",
-                 body: JSON.stringify(data),
-                 headers: {
-                     "Content-Type": "application/json"
-                 }
-             })
+         // const data = {userId:"",idOfProducts: newBasket}
+         //     fetch(`${API_URL}/baskets`, {
+         //         method: "POST",
+         //         body: JSON.stringify(data),
+         //         headers: {
+         //             "Content-Type": "application/json"
+         //         }
+         //     })
          setBasket(newBasket)
     }
     const removeFromProductToBasket = (product) => {

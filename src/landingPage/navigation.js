@@ -7,8 +7,7 @@ import {Baskets} from "../components/Baskets";
 const Navigation = () => {
     const items = Baskets()
     let howMuchItems= []
-     howMuchItems = items.idOfProducts
-    console.log(howMuchItems);
+     howMuchItems = items.length
     return (
         <>
             <Navbar className="position-fixed top-0 w-100 navigation " bg="light" expand="lg">

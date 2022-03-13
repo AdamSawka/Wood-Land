@@ -146,9 +146,13 @@
   ],
   "baskets": [
     {
+      "id": 16,
       "userId": "",
-      "idOfProducts": []
+      "idOfProducts": [
+        3,
+        5,
+        6
+      ]
     }
-
   ]
 }
