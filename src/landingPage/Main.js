@@ -8,7 +8,7 @@ import {AppLogin} from "../components/AppLogin";
 import {SortNew, SortType, SortPopular} from "./shop/sort";
 
 import {Basket} from "./Basket";
-const API_URL = 'http://localhost:3000';
+// const API_URL = 'http://localhost:3000';
 
 //useReducer
 const Main = () => {
@@ -44,7 +44,7 @@ const Main = () => {
                     <Route path="/images" ><SortType typeElement='image' add={addProductToBasket}/> </Route>
                     <Route path="/popular" ><SortPopular add={addProductToBasket} /> </Route>
                     <Route path="/news" ><SortNew add={addProductToBasket} /> </Route>
-                    <Route path="/basket" ><Basket items={basket} remove={removeFromProductToBasket}/> </Route>
+                    <Route path="/basket" ><Basket items={basket} remove={removeFromProductToBasket} add={addProductToBasket}/> </Route>
                 </Switch>
                 <Footer/>
             </Router>
