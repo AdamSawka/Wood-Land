@@ -19,13 +19,13 @@ const Navigation = ({basket}) => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link className="nav-link active" aria-current="page"> <Link className='text-reset' to='/main' >Strona główna</Link></Nav.Link>
-                            <Nav.Link className="nav-item mx-4 d-lg-block" href="/about">O nas</Nav.Link>
+                            <Nav.Link className="nav-item mx-4 d-lg-block"><Link className='text-reset' to='/about' >O nas</Link></Nav.Link>
                             <NavDropdown title="Sklep" id="basic-nav-dropdown" className="nav-item mx-4 d-lg-block">
                                 <NavDropdown.Item> <Link className='text-reset' to='/itemsAll' >Wszystkie produkty</Link></NavDropdown.Item>
                                 <NavDropdown.Item> <Link className='text-reset' to='/popular' >Popularne</Link></NavDropdown.Item>
                                 <NavDropdown.Item> <Link className='text-reset' to='/news' >Nowości</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/login" className="nav-item mx-4 d-lg-block">Logowanie/Rejestracja</Nav.Link>
+                            <Nav.Link className="nav-item mx-4 d-lg-block"><Link className='text-reset' to='/login' >Logowanie/Rejestracja</Link></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     <i className="fa fa-shopping-basket mx-2" aria-hidden="true"/>
