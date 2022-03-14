@@ -6,7 +6,6 @@ import {Footer} from "./footer";
 import {ItemsAll} from "./shop/itemsAll";
 import {AppLogin} from "../components/AppLogin";
 import {SortNew, SortType, SortPopular} from "./shop/sort";
-
 import {Basket} from "./Basket";
 // const API_URL = 'http://localhost:3000';
 
