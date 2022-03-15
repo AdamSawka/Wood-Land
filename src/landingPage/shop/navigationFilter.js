@@ -3,7 +3,8 @@ import React from "react";
 const NavigationFilter = () => {
 
     return <>
-        <div className="d-flex flex-column align-items-center col-sm-4 col-md-2 col-lg-2 col-xl-2 vh-100">
+        <div className="col-sm-4 col-md-2 col-lg-2 col-xl-2 vh-100 ">
+            <div className="d-flex flex-column align-items-center justify-content-center h-100 my-auto">
             <p>Sortuj według:</p>
                  <input type="checkbox" id="price" name="price"/>
                 <label htmlFor="price">Cena</label>
@@ -18,6 +19,7 @@ const NavigationFilter = () => {
                 <label htmlFor="tshirt">Koszulki</label>
             <input type="checkbox" id="poster" name="poster"/>
                 <label htmlFor="poster">Plakaty</label>
+            </div>
         </div>
     </>
 }

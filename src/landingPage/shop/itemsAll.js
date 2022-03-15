@@ -7,8 +7,7 @@ const ItemsAll = ({add}) => {
     const products = Products()
 
     return <>
-
-                <div className="container d-flex row flex-row">
+                <div className="container d-flex row w-100 mx-auto ">
                     <NavigationFilter />
                     <div className=" col-sm-8 col-md-10 col-lg-10 col-xl-10">
                     <h1 className="d-block margin-top w-100 pt-3 text-center">Wszystkie produkty</h1>
