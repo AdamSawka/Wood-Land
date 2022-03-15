@@ -3,7 +3,7 @@ import React from "react";
 const NavigationFilter = () => {
 
     return <>
-        <div>
+        <div className="d-flex flex-column align-items-center col-sm-4 col-md-2 col-lg-2 col-xl-2 vh-100">
             <p>Sortuj według:</p>
                  <input type="checkbox" id="price" name="price"/>
                 <label htmlFor="price">Cena</label>
