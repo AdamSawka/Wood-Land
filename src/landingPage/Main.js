@@ -27,7 +27,7 @@ const Main = () => {
     }
     const removeFromProductToBasket = (product) => {
         const newBasket = [...basket];
-        // todo :: logic of removing to basket
+
         setBasket(newBasket)
     }
     return (
