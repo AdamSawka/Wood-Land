@@ -27,9 +27,7 @@
 
 ## Presentation
 
-![ezgif-1-000e9e45b2](https://user-images.githubusercontent.com/43583762/159037192-011d6873-dc3e-49cd-a3f9-f698a8dcf33d.gif)
-
-
+![gif2](https://user-images.githubusercontent.com/43583762/159037634-975aac5b-f781-41ca-a032-df8a94c3a409.gif)
 
 
 ## Setup
