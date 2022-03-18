@@ -25,8 +25,7 @@
 - JSON Server
 - Firebase
 
-## Screenshots
-
+## Presentation
 
 https://user-images.githubusercontent.com/43583762/159022984-0cf43d78-2c6f-4862-a40d-c9c66ef5995f.mp4
 
