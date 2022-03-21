@@ -38,7 +38,7 @@
 - start by `json-server --watch src/db/database.json`
 
 ## Status
-- Project is shop with subpages. Now it's working using JSON Server, but it will be connected to the Firebase.
+- Project is shop with subpages. Now it's working using JSON Server, but it will be connected to the Firebase. Now I'm still working on it
 
 ## Contact
 - My [LinkedIn](https://www.linkedin.com/in/adam-sawka-net/) 
