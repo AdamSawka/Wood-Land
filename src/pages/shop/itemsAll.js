@@ -1,7 +1,7 @@
 import React from 'react';
 import {Item} from "./item";
-import {Products} from "../../components/Products.js";
-import {NavigationFilter} from "./navigationFilter";
+import {Products} from "../../helpers/Products.js";
+import {NavigationFilter} from "../../components/Navigation/NavigationFilter";
 
 const ItemsAll = ({add}) => {
     const products = Products()

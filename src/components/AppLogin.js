@@ -3,9 +3,9 @@ import Signup from "./Signup"
 import { Container } from "react-bootstrap"
 import { AuthProvider } from "../contexts/AuthContext"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Login from "./Login"
+import Login from "../pages/Login/Login"
 import ForgotPassword from "./ForgotPassword"
-import {MainPage} from "../landingPage/mainPage";
+import {MainPage} from "../components/mainPage/MainPage";
 
  const AppLogin =()=> {
   return (

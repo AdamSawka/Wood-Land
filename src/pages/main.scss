@@ -1,9 +1,9 @@
-@import "landing-page/navigation";
-@import "landing-page/main-page";
-@import "landing-page/carousel";
-@import "landing-page/aboutUs";
-@import "landing-page/formular";
-@import "landing-page/footer";
+@import "/../components/Navigation/navigation";
+@import "/../components/mainPage/main-page";
+@import "/../components/mainPage/AboutUs/aboutUs";
+@import "/../components/mainPage/Carousel/carousel";
+@import "/../components/mainPage/Formular/formular";
+@import "/../components/Footer/footer";
 @import "login/login";
-@import "landing-page/basket";
-@import "landing-page/shop";
+@import "/../components/Basket/basket";
+@import "./shop/shop";

@@ -1,10 +1,10 @@
 import React from "react";
-import {Carousel1} from "./carousel";
-import {Contact} from "./contact/contact";
-import {AboutUs} from "./about/aboutUs";
+import {Carousel1} from "./Carousel/Carousel";
+import {Contact} from "./Contact/Contact";
+import {AboutUs} from "./AboutUs/AboutUs";
 import {Link} from "react-router-dom";
-import deers4 from "../img/deers4.jpg"
-import image from "../img/image3.jpg"
+import deers4 from "../../assets/deers4.jpg"
+import image from "../../assets/image3.jpg"
 
 const MainPage = () => {
     return (

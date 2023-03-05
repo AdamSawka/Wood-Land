@@ -1,6 +1,6 @@
 import React from "react";
-import {Item} from "./shop/item";
-import {Products} from "../components/Products";
+import {Item} from "../../pages/shop/item";
+import {Products} from "../../helpers/Products";
 
 
 const Basket = ({items, remove})=>{

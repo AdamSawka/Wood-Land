@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {Navigation} from "./navigation";
-import {MainPage} from "./mainPage";
-import {Footer} from "./footer";
-import {ItemsAll} from "./shop/itemsAll";
+import {Navigation} from "../components/Navigation/Navigation";
+import {MainPage} from "../components/mainPage/MainPage";
+import {Footer} from "../components/Footer/Footer";
+import {ItemsAll} from "../pages/shop/itemsAll";
 import {AppLogin} from "../components/AppLogin";
 import {SortNew, SortType, SortPopular} from "./shop/sort";
-import {Basket} from "./Basket";
+import {Basket} from "../components/Basket/Basket";
 // const API_URL = 'http://localhost:3000';
 
 //useReducer
